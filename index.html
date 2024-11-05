@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR" data-theme="dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alexia Camargo | Portfólio</title>
-  <meta name="description" content="Portfólio da desenvolvedora Alexia Camargo para compartilhar projetos e habilidades desenvolvidas.">
+  <meta name="description"
+    content="Portfólio da desenvolvedora Alexia Camargo para compartilhar projetos e habilidades desenvolvidas.">
 
   <link rel="shortcut icon" href="logo-ac.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
   <header class="header">
     <nav class="header__nav">
@@ -77,7 +80,7 @@
   <main id="home">
     <div class="main__content1">
       <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
-      <p>Alexia Camargo. Alegrete-RS. Bacharela em Ciência da Computação e Técnica em Administração.</p> 
+      <p>Alexia Camargo. Alegrete-RS. Bacharela em Ciência da Computação e Técnica em Administração.</p>
       <ul class="menu menu--social">
         <li>
           <a class="menu__link" href="https://github.com/alexiacamargo" target="_blank">
@@ -94,7 +97,7 @@
         <button class="btn btn--primary">
           <span>Ver Projetos</span>
           <i class="bi bi-arrow-down-right"></i>
-        </button>  
+        </button>
       </a>
     </div>
   </main>
@@ -119,6 +122,39 @@
 
   <section id="projetos" class="projects">
     <h2>Projetos</h2>
+    <div class="projects__card card--reverse">
+      <img class="card__cover" src="assets/images/projects/prof-ingles-virtual.png" alt="Prof Inglês Virtual">
+      <div class="card__body">
+        <h3 class="card__title">Professor Virtual de Inglês</h3>
+        <p class="card__description">Aplicação web simples desenvolvida com Flask que utiliza a API da OpenAI para criar
+          um professor virtual de inglês.</p>
+        <ul class="card__list">
+          <li class="card__item">Após iniciar o servidor e abrir o navegador, você verá a interface onde pode digitar
+            perguntas em inglês. O professor virtual responderá com orientações ou respostas automáticas via IA.</li>
+        </ul>
+        <ul class="technologies__list">
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/HTML5.svg" alt="Logo HTML5">
+          </li>
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/CSS3.svg" alt="Logo CSS3">
+          </li>
+          <li class="technologies__item">
+            <img class="technologies__logo" src="assets/images/technologies/Python.svg" alt="Logo Python">
+          </li>
+        </ul>
+        <div class="card__buttons">
+          <a href="https://virtual-english-teacher.vercel.app/" class="btn btn--primary" target="_blank">
+            <span>Prévia</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a href="https://github.com/alexiacamargo/virtual-english-teacher" class="btn" target="_blank">
+            <span>Repositório</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="projects__container">
       <div class="projects__card">
         <img class="card__cover" src="assets/images/projects/jogo-memoria.png" alt="Jogo da Memória">
@@ -143,20 +179,22 @@
             <a href="https://halloween-memory-game.vercel.app/" class="btn btn--primary" target="_blank">
               <span>Prévia</span>
               <i class="bi bi-arrow-up-right"></i>
-            </a>  
-            <a href="https://github.com/alexiacamargo/halloween-memory-game" class="btn">
+            </a>
+            <a href="https://github.com/alexiacamargo/halloween-memory-game" class="btn" target="_blank">
               <span>Repositório</span>
-            </a>  
+            </a>
           </div>
         </div>
       </div>
+
       <div class="projects__card card--reverse">
         <img class="card__cover" src="assets/images/projects/teclado.png" alt="Teclado Musical Virtual">
         <div class="card__body">
           <h3 class="card__title">Keyboard Simulator</h3>
           <p class="card__description">Teclado Musical Virtual</p>
           <ul class="card__list">
-            <li class="card__item">Aplicação web de interface simples e intuitiva que permite aos usuários tocar um teclado musical utilizando o mouse ou o teclado do computador.</li>
+            <li class="card__item">Aplicação web de interface simples e intuitiva que permite aos usuários tocar um
+              teclado musical utilizando o mouse ou o teclado do computador.</li>
           </ul>
           <ul class="technologies__list">
             <li class="technologies__item">
@@ -173,20 +211,22 @@
             <a href="https://virtual-keyboard-simulator.vercel.app/" class="btn btn--primary" target="_blank">
               <span>Prévia</span>
               <i class="bi bi-arrow-up-right"></i>
-            </a>  
-            <a href="https://github.com/alexiacamargo/virtual-keyboard-simulator" class="btn">
+            </a>
+            <a href="https://github.com/alexiacamargo/virtual-keyboard-simulator" class="btn" target="_blank">
               <span>Repositório</span>
-            </a>  
+            </a>
           </div>
         </div>
       </div>
+
       <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/poetas.png" alt="Capa Games Store">
+        <img class="card__cover" src="assets/images/projects/poetas.png" alt="Poetas Brasileiros e suas Obras">
         <div class="card__body">
           <h3 class="card__title">Poetas Brasileiros: Sua biblioteca poética digital</h3>
           <p class="card__description">Poetas Brasileiros e suas Obras</p>
           <ul class="card__list">
-            <li class="card__item">Insira o nome do poeta brasileiro desejado e pronto! A aplicação vasculha a biblioteca e te apresenta os resultados de forma clara e organizada.</li>
+            <li class="card__item">Insira o nome do poeta brasileiro desejado e pronto! A aplicação vasculha a
+              biblioteca e te apresenta os resultados de forma clara e organizada.</li>
           </ul>
           <ul class="technologies__list">
             <li class="technologies__item">
@@ -203,29 +243,31 @@
             <a href="https://poetas-brasileiros.vercel.app/" class="btn btn--primary" target="_blank">
               <span>Prévia</span>
               <i class="bi bi-arrow-up-right"></i>
-            </a>  
-            <a href="https://github.com/alexiacamargo/Poetas-Brasileiros" class="btn">
+            </a>
+            <a href="https://github.com/alexiacamargo/Poetas-Brasileiros" class="btn" target="_blank">
               <span>Repositório</span>
-            </a> 
+            </a>
           </div>
         </div>
       </div>
-      <a href="https://github.com/alexiacamargo">
+
+      <a href="https://github.com/alexiacamargo" target="_blank">
         <button class="btn btn--primary">
           <span>Ver Todos os Projetos</span>
           <i class="bi bi-arrow-up-right"></i>
-        </button>  
+        </button>
       </a>
     </div>
   </section>
 
   <section id="sobre" class="about">
     <div class="about__content1">
-      <img class="about__photo" src="assets/images/avatar.png" alt="">
+      <img class="about__photo" src="assets/images/avatar.png" alt="avatar">
       <div class="about__description">
         <h2>Sobre mim</h2>
-        <p>Alexia Camargo. Graduada em Ciência da Computação e Técnica em Administração, sou apaixonada por tecnologia e adoro vivenciar novas experiências que permitam-me aprimorar e atualizar meus conhecimentos.
-        </p>  
+        <p>Alexia Camargo. Graduada em Ciência da Computação e Técnica em Administração, sou apaixonada por tecnologia e
+          adoro vivenciar novas experiências que permitam-me aprimorar e atualizar meus conhecimentos.
+        </p>
         <div class="about__icons">
           <i class="bi bi-translate"></i>
           <span>Inglês: Intermediário | Espanhol: Intermediário</span>
@@ -235,7 +277,7 @@
             <button class="btn btn--primary">
               <span>Conecte-se Comigo</span>
               <i class="bi bi-arrow-up-right"></i>
-            </button> 
+            </button>
           </a>
           <a href="">
             <button class="btn">
@@ -285,8 +327,11 @@
           <h4>Auxiliar Administrativo</h4>
           <span>Produtiva Insumos e Sementes. Fev 2023 - Nov 2023</span>
           <ul class="about__list">
-            <li class="about__item">Controle e organização de arquivos físicos e eletrônicos, mantendo registros atualizados e acessíveis;</li>
-            <li class="about__item">Emissão de notas fiscais e boletos, atendimento geral ao cliente, gerenciamento financeiro de contas a pagar e contas a receber, controle de planilhas de estoque, cadastro de fornecedores e produtos.</li>
+            <li class="about__item">Controle e organização de arquivos físicos e eletrônicos, mantendo registros
+              atualizados e acessíveis;</li>
+            <li class="about__item">Emissão de notas fiscais e boletos, atendimento geral ao cliente, gerenciamento
+              financeiro de contas a pagar e contas a receber, controle de planilhas de estoque, cadastro de
+              fornecedores e produtos.</li>
           </ul>
 
           <h4>Bolsista - Projeto de Extensão Gurias na Computação</h4>
@@ -298,8 +343,11 @@
           <h4>Atendente Geral</h4>
           <span>Regime Próprio de Previdência Social (RPPS). Jul de 2017 - Jul de 2019</span>
           <ul class="about__list">
-            <li class="about__item">Colaboração com a equipe, mantendo um ambiente de trabalho harmonioso e produtivo;</li>
-            <li class="about__item"> Atuação no sistema informatizado da empresa, realização de alterações de dados e provas de vida, emissão de contracheques, desenvolvimento de relatórios, digitalização de documentos, elaboração de ofícios e memorandos.</li>
+            <li class="about__item">Colaboração com a equipe, mantendo um ambiente de trabalho harmonioso e produtivo;
+            </li>
+            <li class="about__item"> Atuação no sistema informatizado da empresa, realização de alterações de dados e
+              provas de vida, emissão de contracheques, desenvolvimento de relatórios, digitalização de documentos,
+              elaboração de ofícios e memorandos.</li>
           </ul>
         </div>
       </div>
@@ -316,10 +364,13 @@
                 freeCodeCamp. Ago 2024. 300h.
               </p>
               <p>
-                Nesta Certificação em Web Design Responsivo, estudei sobre as linguagens que os desenvolvedores usam para criar páginas da web: HTML (Hypertext Markup Language) para conteúdo e CSS (Cascading Style Sheets) para design. 
+                Nesta Certificação em Web Design Responsivo, estudei sobre as linguagens que os desenvolvedores utilizam
+                para criar páginas da web: HTML (Hypertext Markup Language) para conteúdo e CSS (Cascading Style Sheets)
+                para design.
               </p>
             </div>
           </div>
+          
           <div class="accordion__item">
             <button class="accordion__header">
               <span>Imersão Dev com Google Gemini</span>
@@ -330,10 +381,12 @@
                 Alura. Set 2024. 4h.
               </p>
               <p>
-                Durante a imersão, tive a oportunidade de atualizar meus conhecimentos em front-end, trabalhando com HTML, CSS e JavaScript aliados a IA Google Gemini.
+                Durante a imersão, tive a oportunidade de atualizar meus conhecimentos em front-end, trabalhando com
+                HTML, CSS e JavaScript aliados a IA Google Gemini.
               </p>
             </div>
           </div>
+
           <div class="accordion__item">
             <button class="accordion__header end">
               <span>Curso Simplifica Python Express</span>
@@ -344,13 +397,29 @@
                 Simplifica Treinamentos. Set 2024. 10h.
               </p>
               <p>
-                O curso foi uma imersão prática na linguagem Python, onde realizamos projetos de automação e análise de dados utilizando a linguagem e aprimorando minhas habilidades em programação.
+                O curso foi uma imersão prática na linguagem Python, onde realizamos projetos de automação e análise de
+                dados utilizando a linguagem e aprimorando minhas habilidades em programação.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Bootcamp Ri Happy - Front-end do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                DIO. Nov 2024. 75h.
+              </p>
+              <p>
+                Durante o Bootcamp adquiri habilidades em Git, GitHub, HTML, CSS e JavaScript.
               </p>
             </div>
           </div>
         </div>
-  </section> 
-  
+  </section>
+
   <section id="contato" class="contact">
     <h2>Contate-me</h2>
     <p>Conecte-se comigo através das minhas redes sociais:</p>
@@ -371,14 +440,14 @@
     <a href="mailto:alexiabcamargo@gmail.com">
       <button class="btn btn--primary">
         <span class="email">alexiabcamargo@gmail.com</span>
-      </button>  
+      </button>
     </a>
   </section>
 
   <footer>
     <p>
-      © 2024. Portfólio desenvolvido durante o Lab "Construindo seu Portfolio Front-end do Zero" da 
-      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      © 2024. Portfólio desenvolvido durante o Lab "Construindo seu Portfolio Front-end do Zero" da
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por
       <a href="https://github.com/alexiacamargo" target="_blank">Alexia Camargo</a>.
     </p>
   </footer>
