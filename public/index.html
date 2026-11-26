@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alexia Bagesteiro Camargo — Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%2314532d'/><text x='32' y='47' text-anchor='middle' font-family='Georgia, serif' font-size='42' font-weight='700' fill='%23ffffff'>A</text></svg>" />
+</head>
+<body>
+  <!-- Navegação Superior -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#topo" class="brand-name">ALEXIA</a>
+
+      <button
+        id="menuToggleBtn"
+        class="menu-toggle-btn"
+        type="button"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+        aria-controls="mobileNavLinks"
+      >
+        <span class="menu-toggle-lines" aria-hidden="true"></span>
+      </button>
+
+      <nav id="mobileNavLinks" class="nav-links" aria-label="Seções do portfólio">
+        <a href="#sobre">Sobre</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#formacao">Formação</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#competencias">Competências</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="mobileNavBackdrop" class="mobile-nav-backdrop hidden" aria-hidden="true"></div>
+
+  <main id="topo">
+    <!-- Hero -->
+    <section id="sobre" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-main">
+          <h1>Alexia Bagesteiro Camargo</h1>
+          <p class="hero-location">
+            <svg class="inline-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Alegrete, RS</span>
+          </p>
+          <p class="hero-lead">
+            Pós-graduanda em <strong>Gestão de Projetos</strong>, Bacharela em <strong>Ciência da Computação</strong> pela UNIPAMPA e <strong>Técnica em Administração</strong>,
+            motivada a aprender e evoluir continuamente, atuando em sistemas internos e integrando conhecimentos em gestão e processamento de dados com tecnologia.
+          </p>
+          <div class="hero-actions">
+            <a href="#projetos" class="btn-solid btn-action-primary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>Ver Projetos</span>
+            </a>
+
+            <a href="#experiencias" class="btn-outline btn-action-secondary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              <span>Ver Experiências</span>
+            </a>
+
+            <a href="https://linkedin.com/in/alexiacamargo" target="_blank" rel="noopener noreferrer" class="btn-social-link">
+              <svg class="icon-linkedin" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19ZM8.34 17.34V10.67H6.12V17.34H8.34ZM7.23 9.75C8 9.75 8.46 9.24 8.46 8.61C8.45 7.96 8 7.47 7.24 7.47C6.49 7.47 6 7.96 6 8.61C6 9.24 6.48 9.75 7.22 9.75H7.23ZM17.88 17.34V13.6C17.88 11.59 16.81 10.66 15.38 10.66C14.23 10.66 13.71 11.29 13.42 11.74V10.67H11.2C11.23 11.27 11.2 17.34 11.2 17.34H13.42V13.62C13.42 13.42 13.43 13.22 13.49 13.08C13.65 12.68 14.01 12.27 14.62 12.27C15.41 12.27 15.72 12.87 15.72 13.75V17.34H17.88Z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://www.credly.com/users/alexia-bagesteiro-camargo/badges/credly" target="_blank" rel="noopener noreferrer" class="btn-social-link btn-credly-link">
+              <svg class="icon-credly" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+              </svg>
+              <span>Credly</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-aside" aria-label="Foto de perfil">
+          <div class="profile-avatar-card">
+            <div class="profile-avatar-circle">
+              <img
+                id="profilePhotoImg"
+                src="assets/avatar.png"
+                alt="Foto de Alexia Bagesteiro Camargo"
+                class="profile-avatar-img"
+                onerror="this.classList.add('is-missing'); document.getElementById('photoFallback').classList.remove('hidden');"
+              />
+              <div id="photoFallback" class="photo-fallback hidden">
+                <span class="photo-initials">AC</span>
+                <p>Salve em <code>public/assets/foto-alexia.jpg</code></p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Kanban: Experiências -->
+    <section id="experiencias" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-tag">Trajetória Profissional & Acadêmica</span>
+            <h2>Experiências</h2>
+          </div>
+          <p class="section-note">Visualização baseada em Kanban</p>
+        </div>
+
+        <div class="kanban-readonly" role="region" aria-label="Kanban de Experiências">
+          <!-- Concluído (Verde) -->
+          <div class="kb-col kb-col-done">
+            <div class="kb-col-head">
+              <span class="kb-dot dot-done"></span>
+              <h3>Concluído</h3>
+            </div>
+            <div class="kb-items">
+              <article class="kb-card">
+                <span class="kb-period">Fev/2023 – Nov/2023</span>
+                <h4>Auxiliar Administrativo</h4>
+                <p class="kb-org">Produtiva Insumos e Sementes</p>
+                <p class="kb-desc">
+                  Emissão de notas fiscais e boletos, atendimento ao cliente, contas a pagar e receber,
+                  controle de planilhas de estoque, cadastro de fornecedores e produtos, e organização de arquivos físicos e eletrônicos.
+                </p>
+              </article>
+
+              <article class="kb-card">
+                <span class="kb-period">Mai/2021 – Dez/2021 • 420h</span>
+                <h4>Projeto "Gurias na Computação"</h4>
+                <p class="kb-org">UNIPAMPA • Bolsista e Membro da Equipe Executora</p>
+                <p class="kb-desc">
+                  Coorganização da "Oficina ComputAÇÃO" (lógica de programação, algoritmos e Code.org na rede pública),
+                  planejamento remoto no Google Workspace, questionários de impacto e acolhimento de graduandas em TI.
+                </p>
+              </article>
+
+              <article class="kb-card">
+                <span class="kb-period">Jul/2017 – Jul/2019</span>
+                <h4>Atendente Geral (Estágio)</h4>
+                <p class="kb-org">Regime Próprio de Previdência Social (RPPS)</p>
+                <p class="kb-desc">
+                  Operação de sistema informatizado interno para entrada de dados, provas de vida e contracheques,
+                  além de redação técnica de relatórios, ofícios, memorandos e digitalização de documentos.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- A Fazer / Sendo feito agora (Amarelo) -->
+          <div class="kb-col kb-col-doing">
+            <div class="kb-col-head">
+              <span class="kb-dot dot-doing"></span>
+              <h3>A Fazer</h3>
+            </div>
+            <div class="kb-items">
+              <article class="kb-card">
+                <span class="kb-period">Abr/2025 – Momento Atual</span>
+                <h4>Recepcionista, em geral</h4>
+                <p class="kb-org">Centro Empresarial de Alegrete (CEA)</p>
+                <p class="kb-desc">
+                  Atendimento ao público, consultas em órgãos de proteção ao crédito, agendamento e controle de locações,
+                  ética e segurança de dados conforme a LGPD, gestão de mídias sociais e criação de conteúdo visual.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Aguardando na fila (Cinza / Azul) -->
+          <div class="kb-col kb-col-waiting">
+            <div class="kb-col-head">
+              <span class="kb-dot dot-waiting"></span>
+              <h3>Aguardando</h3>
+            </div>
+            <div class="kb-items">
+              <article class="kb-card">
+                <span class="kb-period">Próximo Passo</span>
+                <h4>Oportunidade na Área de Tecnologia</h4>
+                <p class="kb-org">Dados, IA, Python, Desenvolvimento Web</p>
+                <p class="kb-desc">
+                  Disponível para conversas, projetos e novas oportunidades.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kanban: Formação -->
+    <section id="formacao" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-tag">Base Acadêmica & Certificação</span>
+            <h2>Formação</h2>
+          </div>
+          <p class="section-note">Visualização baseada em Kanban</p>
+        </div>
+
+        <div class="kanban-readonly" role="region" aria-label="Kanban de Formação">
+          <!-- Concluído (Verde) -->
+          <div class="kb-col kb-col-done">
+            <div class="kb-col-head">
+              <span class="kb-dot dot-done"></span>
+              <h3>Concluído</h3>
+            </div>
+            <div class="kb-items">
+              <article class="kb-card">
+                <span class="kb-period">2026</span>
+                <h4>Google Cloud Computing Foundations Certificate</h4>
+                <p class="kb-org">FACLab — Faculdade do Comércio & Google Cloud</p>
+                <p class="kb-desc">
+                  Certificação técnica em fundamentos de computação em nuvem e arquitetura na Google Cloud Platform.
+                </p>
+              </article>
+
+              <article class="kb-card">
+                <span class="kb-period">Concluído em 2022</span>
+                <h4>Bacharelado em Ciência da Computação</h4>
+                <p class="kb-org">Universidade Federal do Pampa (UNIPAMPA)</p>
+                <p class="kb-desc">
+                  Formação superior em computação, algoritmos, programação, dados e desenvolvimento de soluções tecnológicas.
+                </p>
+              </article>
+
+              <article class="kb-card">
+                <span class="kb-period">Concluído em 2014</span>
+                <h4>Curso Técnico em Administração</h4>
+                <p class="kb-org">Colégio Estadual Emílio Zuñeda</p>
+                <p class="kb-desc">
+                  Base técnica em processos administrativos, organização, atendimento e rotinas empresariais.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <!-- A Fazer / Pós-graduação em andamento (Amarelo) -->
+          <div class="kb-col kb-col-doing">
+            <div class="kb-col-head">
+              <span class="kb-dot dot-doing"></span>
+              <h3>A Fazer</h3>
+            </div>
+            <div class="kb-items">
+              <article class="kb-card">
+                <span class="kb-period">Abril/2026 – Em andamento • Previsão 2027</span>
+                <h4>Pós-Graduação Lato Sensu em Gestão de Projetos</h4>
+                <p class="kb-org">Faculdade do Comércio (FAC) - EAD</p>
+                <p class="kb-desc">
+                  Planejamento, execução e controle de projetos, gestão de equipes e recursos, análise de riscos, metodologias ágeis e tradicionais e avaliação de resultados..
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-tag">Repositórios & Deploys</span>
+            <h2>Projetos</h2>
+          </div>
+        </div>
+
+        <div id="projectsGrid" class="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- Competências -->
+    <section id="competencias" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-tag">Habilidades</span>
+            <h2>Competências</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h3>Tecnologias, IA e Web</h3>
+            <ul>
+              <li>Python</li>
+              <li>Visão Computacional</li>
+              <li>Processamento de Imagens</li>
+              <li>Redes Neurais Convolucionais (RNC)</li>
+              <li>Inteligência Artificial</li>
+              <li>Desenvolvimento Front-end (HTML5, CSS3, JavaScript)</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Cloud e Dados</h3>
+            <ul>
+              <li>Google Cloud Platform (GCP)</li>
+              <li>Cloud Computing (Google Cloud Foundations)</li>
+              <li>Banco de Dados</li>
+              <li>SQL</li>
+              <li>Processamento e Entrada de Dados</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Gestão e Processos</h3>
+            <ul>
+              <li>Gestão de Projetos</li>
+              <li>Metodologias Ágeis (Scrum / Kanban)</li>
+              <li>Rotinas Administrativas</li>
+              <li>Atendimento ao Cliente</li>
+              <li>Fluxos Financeiros</li>
+              <li>Sistema ERP (Windel)</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Competências Comportamentais</h3>
+            <ul>
+              <li>Ética profissional</li>
+              <li>Disciplina</li>
+              <li>Aprendizado contínuo</li>
+              <li>Organização e gestão de arquivos e documentos</li>
+              <li>Qualidade no atendimento ao cliente</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <footer id="contato" class="site-footer">
+      <div class="container footer-cta-card">
+        <div class="footer-cta-copy">
+          <span class="section-tag">Contato</span>
+          <h2>Vamos trabalhar juntos?</h2>
+          <p class="footer-sub">
+            Disponível para conversas, projetos e novas oportunidades.
+          </p>
+        </div>
+
+        <div class="contact-list">
+          <a href="mailto:alexiabcamargo@gmail.com" class="contact-item">
+            <span class="contact-icon-badge badge-mail" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </span>
+            <span>alexiabcamargo@gmail.com</span>
+          </a>
+
+          <a href="https://linkedin.com/in/alexiacamargo" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon-badge badge-linkedin" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19ZM8.34 17.34V10.67H6.12V17.34H8.34ZM7.23 9.75C8 9.75 8.46 9.24 8.46 8.61C8.45 7.96 8 7.47 7.24 7.47C6.49 7.47 6 7.96 6 8.61C6 9.24 6.48 9.75 7.22 9.75H7.23ZM17.88 17.34V13.6C17.88 11.59 16.81 10.66 15.38 10.66C14.23 10.66 13.71 11.29 13.42 11.74V10.67H11.2C11.23 11.27 11.2 17.34 11.2 17.34H13.42V13.62C13.42 13.42 13.43 13.22 13.49 13.08C13.65 12.68 14.01 12.27 14.62 12.27C15.41 12.27 15.72 12.87 15.72 13.75V17.34H17.88Z"/>
+              </svg>
+            </span>
+            <span>linkedin.com/in/alexiacamargo</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Botão Flutuante da alexIA -->
+  <button
+    id="chatFabBtn"
+    class="chat-fab"
+    type="button"
+    aria-label="Abrir chat com a alexIA"
+    aria-expanded="false"
+  >
+    <span class="chat-fab-icon" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+    </span>
+    <span class="chat-fab-label">alexIA</span>
+  </button>
+
+  <!-- Janela Popup da alexIA -->
+  <section
+    id="chatPopup"
+    class="chat-popup hidden"
+    aria-label="Chat com a alexIA"
+    role="dialog"
+  >
+    <div class="chat-popup-header">
+      <div>
+        <strong>alexIA</strong>
+        <span id="chatStatusText" class="chat-status">Assistente do portfólio</span>
+      </div>
+      <div class="chat-popup-actions">
+        <button id="clearChatBtn" class="chat-icon-btn" type="button" title="Limpar conversa" aria-label="Limpar conversa">
+          ↺
+        </button>
+        <button id="closeChatBtn" class="chat-icon-btn" type="button" title="Fechar chat" aria-label="Fechar chat">
+          ✕
+        </button>
+      </div>
+    </div>
+
+    <div id="chatMessages" class="chat-messages">
+      <div class="msg msg-ai">Olá! Sou a <strong>alexIA</strong>. Toque em um balãozinho abaixo ou pergunte sobre experiências, aprendizados, formação, interesses ou competências de Alexia.</div>
+    </div>
+
+    <!-- Balões de perguntas rápidas -->
+    <div id="quickPrompts" class="quick-prompts" aria-label="Perguntas rápidas">
+      <button type="button" class="quick-chip" data-prompt="Onde a Alexia trabalhou e o que ela aprendeu em cada experiência?">
+        Experiências e aprendizados
+      </button>
+      <button type="button" class="quick-chip" data-prompt="Quais são os interesses e objetivos da Alexia na área de tecnologia?">
+        Interesses
+      </button>
+      <button type="button" class="quick-chip" data-prompt="Qual é a formação acadêmica e certificações da Alexia?">
+        Formação
+      </button>
+      <button type="button" class="quick-chip" data-prompt="Quais são as principais competências e ferramentas da Alexia?">
+        Competências
+      </button>
+      <button type="button" class="quick-chip" data-prompt="Como falar com a Alexia Camargo?">
+        Contato
+      </button>
+    </div>
+
+    <form id="chatForm" class="chat-form">
+      <input
+        id="chatInput"
+        type="text"
+        placeholder="Escreva sua pergunta..."
+        autocomplete="off"
+        required
+      />
+      <button id="sendChatBtn" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
